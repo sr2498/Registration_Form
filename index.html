@@ -5,34 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
 </head>
-<body>
+<body>       
+    <h1>Race Registration Form!</h1>
+    <form action="">
     <div>
-        <div>
-    <h1>Registration Form!</h1>
-    <form>
     <label for="first">First Name</label>
-    <input type="text" placeholder="First" name="first" id="first">
-   
+    <input type="text" placeholder="First" name="first" id="first" required>   
     <label for="last">Last Name</label>
-    <input type="text" placeholder="Last" name="last" id="last">
+    <input type="text" placeholder="Last" name="last" id="last" required>
     </div>
+   
+    <p>Select a Race:</p>
     <div>
-    <label for="radio">Select a Race:</label>
-    <input type="radio">
-    <input type="radio">
-    <input type="radio">
-    </div>
+    <input type="radio" name="race" id="funrun">
+    <label for="funrun">Fun Run 5k</label>
+</div>
+<div>
+    <input type="radio" name="race" id="half">
+    <label for="half">Half Marathon</label>
+</div>
+<div>
+    <input type="radio" name="race" id="full">
+    <label for="full">Full Marathon</label>
+</div>
     <div>
-    <label for="username">Username</label>
-    <input type="text" placeholder="username" name="username" id="username">
+    <label for="email">Email</label>
+    <input type="email" placeholder="email@abc.com" name="email" id="email" required>
    
     <label for="password">Password</label>
-    <input type="text" placeholder="password" name="password" id="password">
+    <input type="password" placeholder="password" name="password" id="password" required>
     </div>
-    <label for="range">Select a Age Group</label>
-    <input type="range" placeholder="under 18">
+    
+    <div>
+    <label for="division">Select a Age Group</label>
+    <select name="division" id="division">
+    <option value="kids">under 18</option>
+    <option value="youth">18-30</option>
+    <option value="adults">30-50</option>
+    <option value="seniors">50+</option>
+    </select>
+    </div>
     <button>Register</button>
-    </div>
+
 
 </form>
 </body>
