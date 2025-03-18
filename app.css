@@ -20,8 +20,9 @@ body {
 }
 
 h1 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #333;
+    font-weight: bold;
 }
 
 /* Form Container */
@@ -35,7 +36,7 @@ form {
 
 /* Form Elements */
 label {
-    font-weight: gray;
+    font-weight: bold;
     margin-top: 10px;
 }
 
@@ -57,7 +58,7 @@ div {
 }
 
 p {
-    font-weight: gray;
+    font-weight: bold;
 }
 
 /* Button Styling */
@@ -72,4 +73,10 @@ button {
 
 button:hover {
     background-color: #218838;
+    color: black;
+    font-weight: bold;
+}
+
+button:active {
+    background-color: gray;
 }
