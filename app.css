@@ -30,8 +30,9 @@ h1 {
 form {
     background: #fff;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
     width: 350px;
 }
 
@@ -46,7 +47,7 @@ input, select, button {
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 input[type="radio"] {
@@ -70,9 +71,9 @@ button {
     cursor: pointer;
     border: none;
     transition: background 0.3s;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
+    border-radius: 30px;
+    border: 2px solid black;
+    
 }
 
 button:hover {
