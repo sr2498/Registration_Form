@@ -10,13 +10,14 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: white;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+   
 }
 
 h1 {
@@ -69,6 +70,9 @@ button {
     cursor: pointer;
     border: none;
     transition: background 0.3s;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
 
 button:hover {
