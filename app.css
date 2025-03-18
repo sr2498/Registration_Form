@@ -80,3 +80,7 @@ button:hover {
 button:active {
     background-color: gray;
 }
+
+::selection {
+    background-color: burlywood;
+}
