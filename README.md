@@ -25,3 +25,7 @@ This project is a simple **Race Registration Form** built using HTML and styled 
 2. Ensure you have `app.css` for styling.
 3. Open `index.html` in a web browser.
 4. Fill in the required details and click **Register**.
+
+## Screenshot
+
+![alt text](<Registration Pic-1.png>)
