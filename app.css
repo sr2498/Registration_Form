@@ -48,6 +48,7 @@ input, select, button {
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 2px;
+    box-sizing: border-box;
 }
 
 input[type="radio"] {
