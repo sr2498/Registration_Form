@@ -90,3 +90,71 @@ button:active {
 ::selection {
     background-color: burlywood;
 }
+
+/* Tablet screens (768px and below) */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    input, select, button {
+        padding: 8px;
+    }
+
+    button {
+        font-size: 14px;
+        color: black;
+    }
+}
+
+/* Mobile screens (480px and below) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    form {
+        width: 95%;
+        padding: 10px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input, select, button {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    button {
+        font-size: 14px;
+        border-radius: 20px;
+    }
+}
+
+/* Small mobile screens (360px and below) */
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    form {
+        padding: 8px;
+    }
+
+    input, select, button {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+}
