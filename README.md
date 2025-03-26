@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a simple **Race Registration Form** built using HTML and styled with CSS. The form allows users to register for a race event by providing their personal details and selecting their preferred race category.
+This project is a simple **"Race Registration Form"** built using HTML and styled with CSS. The form allows users to register for a race event by providing their personal details and selecting their preferred race category.
 
 ## Features
 
