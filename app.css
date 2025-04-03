@@ -7,7 +7,6 @@
     width: 100%;
     max-width: 400px;
 }
-
 body {
     font-family: Arial, sans-serif;
     background-color: white;
@@ -17,7 +16,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
 }
 h1 {
     margin-bottom: 15px;
@@ -38,7 +36,6 @@ label {
     font-weight: bold;
     margin-top: 10px;
 }
-
 input, select, button {
     width: 100%;
     padding: 10px;
@@ -47,12 +44,10 @@ input, select, button {
     border-radius: 2px;
     box-sizing: border-box;
 }
-
 input[type="radio"] {
     width: auto;
     margin-right: 5px;
 }
-
 div {
     margin-bottom: 15px;
 }
@@ -71,15 +66,12 @@ button {
     transition: background 0.3s;
     border-radius: 30px;
     border: 2px solid black;
-    
 }
-
 button:hover {
     background-color: #218838;
     color: black;
     font-weight: bold;
 }
-
 button:active {
     background-color: gray;
 }
@@ -87,7 +79,6 @@ button:active {
 ::selection {
     background-color: burlywood;
 }
-
 /* Tablet screens (768px and below) */
 @media screen and (max-width: 768px) {
     .container {
@@ -108,49 +99,40 @@ button:active {
         color: black;
     }
 }
-
 /* Mobile screens (480px and below) */
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 20px;
         text-align: center;
     }
-
     form {
         width: 95%;
         padding: 10px;
     }
-
     label {
         font-size: 14px;
     }
-
     input, select, button {
         font-size: 14px;
         padding: 6px;
     }
-
     button {
         font-size: 14px;
         border-radius: 20px;
     }
 }
-
 /* Small mobile screens (360px and below) */
 @media screen and (max-width: 360px) {
     h1 {
         font-size: 18px;
     }
-
     form {
         padding: 8px;
     }
-
     input, select, button {
         font-size: 12px;
         padding: 5px;
     }
-
     button {
         font-size: 12px;
     }
