@@ -1,4 +1,4 @@
-# Race Registration Form!
+# Race Registration Form
 
 ## Overview
 
