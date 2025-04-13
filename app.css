@@ -51,11 +51,9 @@ input[type="radio"] {
 div {
     margin-bottom: 15px;
 }
-
 p {
     font-weight: bold;
 }
-
 /* Button Styling */
 button {
     background-color: #28a745;
@@ -75,7 +73,6 @@ button:hover {
 button:active {
     background-color: gray;
 }
-
 ::selection {
     background-color: burlywood;
 }
@@ -93,7 +90,6 @@ button:active {
     input, select, button {
         padding: 8px;
     }
-
     button {
         font-size: 14px;
         color: black;
