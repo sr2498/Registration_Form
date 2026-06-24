@@ -29,3 +29,9 @@ This project is a responsive **Race Registration Form** built using HTML5 and CS
 ├── app.css
 ├── README.md
 └── Registration Pic-1.png
+
+## Author
+Sandhya Rani
+Master of Science in Computer Science
+New Jersey Institute of Technology (NJIT)
+GitHub: https://github.com/sr2498
