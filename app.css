@@ -1,135 +1,164 @@
-/* General Styles */
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    max-width: 400px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body {
-    font-family: Arial, sans-serif;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-h1 {
-    margin-bottom: 15px;
-    color: #333;
-    font-weight: bold;
-}
-/* Form Container */
-form {
-    background: #fff;
-    padding: 20px;
-    border-radius: 20px;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-    width: 350px;
-}
-/* Form Elements */
-label {
-    font-weight: bold;
-    margin-top: 10px;
-}
-input, select, button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-    box-sizing: border-box;
-}
-input[type="radio"] {
-    width: auto;
-    margin-right: 5px;
-}
-div {
-    margin-bottom: 15px;
-}
-p {
-    font-weight: bold;
-}
-/* Button Styling */
-button {
-    background-color: #28a745;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    transition: background 0.3s;
-    border-radius: 30px;
-    border: 2px solid black;
-}
-button:hover {
-    background-color: #218838;
-    color: black;
-    font-weight: bold;
-}
-button:active {
-    background-color: gray;
-}
+
 ::selection {
-    background-color: burlywood;
+  background-color: burlywood;
 }
-/* Tablet screens (768px and below) */
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f8fafc, #e5e7eb);
+  color: #111827;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 420px;
+}
+
+h1 {
+  margin-bottom: 18px;
+  color: #222;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+form {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 20px;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.form-group {
+  margin-bottom: 14px;
+}
+
+label,
+legend {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #c7c7c7;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid #28a745;
+  border-color: #28a745;
+}
+
+fieldset {
+  border: none;
+  margin: 18px 0;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 14px 0;
+}
+
+.radio-group input {
+  width: auto;
+}
+
+.radio-group label {
+  margin: 0;
+}
+
+button {
+  margin-top: 8px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 2px solid black;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+  color: black;
+  font-weight: bold;
+}
+
+button:active {
+  background-color: gray;
+}
+
 @media screen and (max-width: 768px) {
-    .container {
-        max-width: 90%;
-    }
+  .container {
+    max-width: 90%;
+  }
 
-    form {
-        width: 100%;
-        padding: 15px;
-    }
+  form {
+    padding: 18px;
+  }
 
-    input, select, button {
-        padding: 8px;
-    }
-    button {
-        font-size: 14px;
-        color: black;
-    }
+  input,
+  select,
+  button {
+    padding: 9px;
+  }
 }
-/* Mobile screens (480px and below) */
+
 @media screen and (max-width: 480px) {
-    h1 {
-        font-size: 20px;
-        text-align: center;
-    }
-    form {
-        width: 95%;
-        padding: 10px;
-    }
-    label {
-        font-size: 14px;
-    }
-    input, select, button {
-        font-size: 14px;
-        padding: 6px;
-    }
-    button {
-        font-size: 14px;
-        border-radius: 20px;
-    }
+  body {
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  form {
+    padding: 14px;
+  }
+
+  label,
+  legend,
+  input,
+  select,
+  button {
+    font-size: 14px;
+  }
 }
-/* Small mobile screens (360px and below) */
+
 @media screen and (max-width: 360px) {
-    h1 {
-        font-size: 18px;
-    }
-    form {
-        padding: 8px;
-    }
-    input, select, button {
-        font-size: 12px;
-        padding: 5px;
-    }
-    button {
-        font-size: 12px;
-    }
+  h1 {
+    font-size: 20px;
+  }
+
+  form {
+    padding: 10px;
+  }
+
+  input,
+  select,
+  button {
+    font-size: 12px;
+    padding: 7px;
+  }
 }
