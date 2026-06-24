@@ -2,30 +2,30 @@
 
 ## Overview
 
-This project is a simple **"Race Registration Form"** built using HTML and styled with CSS. The form allows users to register for a race event by providing their personal details and selecting their preferred race category.
+This project is a responsive **Race Registration Form** built using HTML5 and CSS3. Users can enter personal details, select a race type, choose an age group, and submit the registration form.
 
 ## Features
 
-- Collects user information including **First Name**, **Last Name**, **Email**, and **Password**.
-- Allows users to choose from three race types:
-  - Fun Run 5K
-  - Half Marathon
-  - Full Marathon
-- Provides an age group selection dropdown.
-- Includes form validation with the `required` attribute.
+- First name and last name input fields
+- Email and password fields
+- Race selection using radio buttons
+- Age group dropdown
+- HTML5 form validation
+- Responsive layout for desktop, tablet, and mobile
+- Clean modern UI with hover effects
+- Accessible form structure using labels and fieldset
 
 ## Technologies Used
 
-- **HTML5**: For structuring the registration form.
-- **CSS3**: External stylesheet (`app.css`) for styling.
+- HTML5
+- CSS3
+- Responsive Web Design
+- Media Queries
 
-## How to Use
+## Project Structure
 
-1. Clone the repository or download the HTML file.
-2. Ensure you have `app.css` for styling.
-3. Open `index.html` in a web browser.
-4. Fill in the required details and click **Register**.
-
-## Screenshot
-
-![alt text](<Registration Pic-1.png>)
+```text
+├── index.html
+├── app.css
+├── README.md
+└── Registration Pic-1.png
