@@ -34,6 +34,7 @@ This project is a responsive **Race Registration Form** built using **HTML5** an
 ## Author
 
 **Sandhya Rani**
+
 Master of Science in Computer Science
 
 New Jersey Institute of Technology (NJIT)
